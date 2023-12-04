@@ -1,0 +1,30 @@
+.wrapper{
+    position: relative;
+}
+
+.container-nav {
+    position: fixed;
+    z-index: 10;
+}
+
+.container-card {
+    width: 100%;
+    top: 87px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    position: absolute;
+    flex-wrap: wrap;
+    gap: 2cm;
+}
+
+.card {
+    width: 18rem;
+    margin-right: 5px;
+}
+
+body{
+    padding-bottom: 1000px;
+}
+
